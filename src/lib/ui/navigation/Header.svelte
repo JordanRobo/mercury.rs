@@ -12,7 +12,10 @@
             </a>
         </div>
         <div class="text-center">
-            <a href="/docs" class="font-bold group mg-link-group">
+            <a
+                href="/docs/what-is-mercury-cms"
+                class="font-bold group mg-link-group"
+            >
                 <span class="mg-link">Documentation</span></a
             >
         </div>

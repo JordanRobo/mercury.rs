@@ -3,6 +3,7 @@ import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 import aspectRatio from "@tailwindcss/aspect-ratio";
 import svgToDataUri from "mini-svg-data-uri";
 import type { Config } from "tailwindcss";
+import typographyPlugin from "@tailwindcss/typography";
 
 const config: Config = {
   darkMode: ["class"],
@@ -89,7 +90,7 @@ const config: Config = {
     },
   },
   plugins: [
-    // ...other plugins
+    typographyPlugin,
     aspectRatio,
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {

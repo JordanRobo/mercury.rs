@@ -1,15 +1,23 @@
 <script lang="ts">
     import { Sparkles } from "$lib/components/ui/Sparkles";
     import { DotBackground } from "$lib/components/ui/GridAndDotBackground";
+    import * as config from "$lib/config";
+    import { Header } from "$lib/ui/navigation";
 
     import { GradientCard } from "$lib/ui/cards";
 </script>
 
+<svelte:head>
+    <title>{config.title}</title>
+    <meta property="description" content={config.description} />
+</svelte:head>
+
+<Header />
 <div
     class="flex h-[40rem] w-full flex-col items-center justify-center overflow-hidden"
 >
-    <p class="relative z-20 text-center text-xl md:text-2xl lg:text-4xl">
-        Yet another CMS
+    <p class="relative z-20 text-center text-xl md:text-2xl lg:text-3xl">
+        A CMS for Now
     </p>
     <h2
         class="relative z-20 text-center text-3xl font-semibold md:text-7xl lg:text-9xl heading"

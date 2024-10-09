@@ -17,13 +17,16 @@
             <div class="absolute flex h-full items-center p-12">
                 <div class="space-y-2">
                     <div class="flex space-x-2">
-                        <h1 class="text-4xl">Easy Setup</h1>
+                        <h1 class="text-4xl">Headless Architecture</h1>
                         <Gear
                             class="text-mg-primary-700 dark:text-mg-primary-200 h-6 w-6"
                         />
                     </div>
                     <h2 class="text-mg-secondary-950 dark:text-mg-primary-50">
-                        description
+                        Build your frontend your way. Mercury's flexible content
+                        delivery integrates seamlessly with any framework,
+                        empowering developers to create cutting-edge
+                        experiences.
                     </h2>
                 </div>
             </div>
@@ -48,7 +51,9 @@
                         />
                     </div>
                     <h2 class="text-mg-secondary-950 dark:text-mg-primary-50">
-                        description
+                        Experience the familiarity of WordPress with a modern
+                        twist. Our intuitive design ensures smooth content
+                        management for editors of all skill levels.
                     </h2>
                 </div>
             </div>
@@ -75,7 +80,9 @@
                         />
                     </div>
                     <h2 class="text-mg-secondary-950 dark:text-mg-primary-50">
-                        description
+                        Powered by Rust and modern web technologies, Mercury CMS
+                        delivers blazing speed and efficiency, ensuring your
+                        content loads in the blink of an eye.
                     </h2>
                 </div>
             </div>
@@ -94,13 +101,15 @@
             <div class="absolute flex h-full items-center space-y-2 p-12">
                 <div class="space-y-2">
                     <div class="flex space-x-2">
-                        <h1 class="text-4xl">Seamless Intigration</h1>
+                        <h1 class="text-4xl">Developer-Client Harmony</h1>
                         <Link2
                             class="text-mg-primary-700 dark:text-mg-primary-200 h-6 w-6"
                         />
                     </div>
                     <h2 class="text-mg-secondary-950 dark:text-mg-primary-50">
-                        description
+                        Enjoy powerful customization tools alongside an
+                        easy-to-use admin panel. Hand off projects to clients
+                        with confidence, knowing they'll feel right at home.
                     </h2>
                 </div>
             </div>
